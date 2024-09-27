@@ -11,6 +11,15 @@
 		FB43AFA62CA029F5002FA970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43AFA52CA029F5002FA970 /* ContentView.swift */; };
 		FB43AFA82CA029F7002FA970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB43AFA72CA029F7002FA970 /* Assets.xcassets */; };
 		FB43AFAB2CA029F7002FA970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB43AFAA2CA029F7002FA970 /* Preview Assets.xcassets */; };
+		FB43AFB32CA034E7002FA970 /* Coiny-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB43AFB22CA034E7002FA970 /* Coiny-Regular.ttf */; };
+		FB43AFB92CA03A93002FA970 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43AFB82CA03A93002FA970 /* Data.swift */; };
+		FBDA33B52CA13943007325B1 /* QuizCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33B42CA13943007325B1 /* QuizCorner.swift */; };
+		FBDA33B92CA1485B007325B1 /* ComponentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33B82CA1485B007325B1 /* ComponentButton.swift */; };
+		FBDA33BE2CA1B75B007325B1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33BD2CA1B75B007325B1 /* NetworkManager.swift */; };
+		FBDA33C02CA2BC31007325B1 /* UnitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33BF2CA2BC31007325B1 /* UnitManager.swift */; };
+		FBDA33C22CA40D24007325B1 /* ProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33C12CA40D24007325B1 /* ProblemManager.swift */; };
+		FBDA33C62CA546DF007325B1 /* SelectionForProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33C52CA546DF007325B1 /* SelectionForProblem.swift */; };
+		FBDA33CA2CA54B56007325B1 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA33C92CA54B56007325B1 /* ProblemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		FB43AFA52CA029F5002FA970 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB43AFA72CA029F7002FA970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB43AFAA2CA029F7002FA970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB43AFB22CA034E7002FA970 /* Coiny-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coiny-Regular.ttf"; sourceTree = "<group>"; };
+		FB43AFB42CA0352B002FA970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB43AFB82CA03A93002FA970 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FBDA33B42CA13943007325B1 /* QuizCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCorner.swift; sourceTree = "<group>"; };
+		FBDA33B82CA1485B007325B1 /* ComponentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentButton.swift; sourceTree = "<group>"; };
+		FBDA33BD2CA1B75B007325B1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FBDA33BF2CA2BC31007325B1 /* UnitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitManager.swift; sourceTree = "<group>"; };
+		FBDA33C12CA40D24007325B1 /* ProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemManager.swift; sourceTree = "<group>"; };
+		FBDA33C52CA546DF007325B1 /* SelectionForProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionForProblem.swift; sourceTree = "<group>"; };
+		FBDA33C92CA54B56007325B1 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,11 @@
 		FB43AFA22CA029F5002FA970 /* Duolingo */ = {
 			isa = PBXGroup;
 			children = (
+				FB43AFB42CA0352B002FA970 /* Info.plist */,
+				FB43AFB12CA034D1002FA970 /* fonts */,
 				FB43AFA32CA029F5002FA970 /* DuolingoApp.swift */,
-				FB43AFA52CA029F5002FA970 /* ContentView.swift */,
+				FBDA33C82CA547BB007325B1 /* Views */,
+				FB43AFB52CA03A4E002FA970 /* DjangoModel */,
 				FB43AFA72CA029F7002FA970 /* Assets.xcassets */,
 				FB43AFA92CA029F7002FA970 /* Preview Content */,
 			);
@@ -65,6 +87,45 @@
 				FB43AFAA2CA029F7002FA970 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB43AFB12CA034D1002FA970 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FB43AFB22CA034E7002FA970 /* Coiny-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		FB43AFB52CA03A4E002FA970 /* DjangoModel */ = {
+			isa = PBXGroup;
+			children = (
+				FBDA33BD2CA1B75B007325B1 /* NetworkManager.swift */,
+				FB43AFB82CA03A93002FA970 /* Data.swift */,
+				FBDA33BF2CA2BC31007325B1 /* UnitManager.swift */,
+				FBDA33C12CA40D24007325B1 /* ProblemManager.swift */,
+			);
+			path = DjangoModel;
+			sourceTree = "<group>";
+		};
+		FBDA33C72CA5479F007325B1 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				FBDA33C52CA546DF007325B1 /* SelectionForProblem.swift */,
+				FBDA33C92CA54B56007325B1 /* ProblemView.swift */,
+				FBDA33B82CA1485B007325B1 /* ComponentButton.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		FBDA33C82CA547BB007325B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB43AFA52CA029F5002FA970 /* ContentView.swift */,
+				FBDA33B42CA13943007325B1 /* QuizCorner.swift */,
+				FBDA33C72CA5479F007325B1 /* Molecules */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB43AFB32CA034E7002FA970 /* Coiny-Regular.ttf in Resources */,
 				FB43AFAB2CA029F7002FA970 /* Preview Assets.xcassets in Resources */,
 				FB43AFA82CA029F7002FA970 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDA33BE2CA1B75B007325B1 /* NetworkManager.swift in Sources */,
+				FBDA33C62CA546DF007325B1 /* SelectionForProblem.swift in Sources */,
 				FB43AFA62CA029F5002FA970 /* ContentView.swift in Sources */,
+				FBDA33B52CA13943007325B1 /* QuizCorner.swift in Sources */,
+				FBDA33CA2CA54B56007325B1 /* ProblemView.swift in Sources */,
+				FBDA33C22CA40D24007325B1 /* ProblemManager.swift in Sources */,
+				FBDA33C02CA2BC31007325B1 /* UnitManager.swift in Sources */,
 				FB43AFA42CA029F5002FA970 /* DuolingoApp.swift in Sources */,
+				FB43AFB92CA03A93002FA970 /* Data.swift in Sources */,
+				FBDA33B92CA1485B007325B1 /* ComponentButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Duolingo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Duolingo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +373,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Duolingo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Duolingo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
