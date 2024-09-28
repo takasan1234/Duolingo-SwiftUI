@@ -82,8 +82,9 @@ struct HomeView: View {
                             
                             HStack {
                                 Spacer()
-                                ComponentButton(buttonType: "star", isActive: false)
+                                ComponentButton(buttonType: "star", isActive: true, baseColor: .blue)
                                     .padding()
+                                
                                 Spacer()
                             }
                         }

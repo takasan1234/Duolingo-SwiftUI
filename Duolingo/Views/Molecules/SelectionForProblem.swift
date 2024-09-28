@@ -23,6 +23,7 @@ struct SelectionForProblem: View {
                     color = .red
                 }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    color = Color(.white)
                     currentPage += 1
                 }
                 print("aaaaaaaaaaaaaaaaaaadsdsds")
